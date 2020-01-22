@@ -1,13 +1,11 @@
 <template>
   <svg
+    preserveAspectRatio="xMidYMid meet"
     xmlns="http://www.w3.org/2000/svg"
-    height="70.485pt"
-    width="523.8pt"
-    viewBox="0 0 349.2 46.99"
     class="randef-logo"
+    viewBox="0 0 349.2 46.99"
   >
-    <title>RANDEF logo</title>
-    <g id="Layer_1">
+    <g id="g">
       <path
         class="color-secondary"
         d="M160.77,0V47H158l-32-40.81V47h-3.42V0h2.88l32,40.82V0Z"
@@ -35,13 +33,19 @@
         class="color-primary"
         points="317.78 0 317.78 14.23 321.2 14.23 321.2 3.09 349.2 3.09 349.2 0 317.78 0"
       />
-      <circle class="color-primary" cx="230.84" cy="23.5" r="4.85" />
-      <circle class="color-primary" cx="319.49" cy="23.5" r="4.85" />
+      <ellipse
+        class="color-primary"
+        cx="230.53"
+        cy="23.48"
+        rx="4.7"
+        ry="4.85"
+      />
+      <ellipse class="color-primary" cx="331.8" cy="23.48" rx="4.7" ry="4.85" />
       <rect
         class="color-primary"
-        x="232.4"
+        x="230.53"
         y="22.17"
-        width="85.38"
+        width="101.27"
         height="2.62"
       />
       <polygon

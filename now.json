@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "name": "randef-website",
+  "regions": ["bru"],
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@now/static-build",
+      "config": {
+        "maxLambdaSize": "35mb"
+      }
+    }
+  ],
+  "routes": [
+    { "src": "/_nuxt/(.*)", "dest": "/_nuxt/$1", "headers": { "cache-control": "s-maxage=31536000" } },
+    { "src": "/favicon.ico", "dest": "/favicon.ico" },
+    { "src": "/(.*)", "dest": "/index.html" }
+  ]
+}

@@ -18,7 +18,7 @@
           <fa :icon="fab.faGithub" />
         </a>
         <a
-          href="https://www.instagram.com/oonacermak/"
+          href="https://www.instagram.com/_randef/"
           target="_blank"
           class="button social instagram"
         >
@@ -51,9 +51,9 @@ export default {
 
 <style>
 .container {
-  margin: 0 auto;
+  padding-top: 10%;
+  margin: auto;
   min-height: 100vh;
-  display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;

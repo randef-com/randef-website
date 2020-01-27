@@ -61,7 +61,15 @@
 </template>
 <style>
 .randef-logo {
-  animation: 1s appear;
+  width: 35%;
+  animation: 1.5s appear;
+}
+
+@media only screen and (max-width: 1200px) {
+  .randef-logo {
+    animation: 1.5s appear;
+    width: 65%;
+  }
 }
 
 .color-primary {
